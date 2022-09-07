@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    /* background-image: url('background.jpg') no-repeat center; */
+    position: inherit;
+    justify-content: space-between;
+}
+.left_element{
+    padding: 15vh;
+   /* / position: inherit; */
+   margin-top: 90px;
+  
+}
+.right_element{
+    padding: 3vh;
+    /* position: relative; */
+    margin-top: 25px;
+    background-color: azure;
+    box-shadow: 0 5px 8px 0;
+    width: 350px;
+    border-radius: 10px;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 89px;
+}
+.nav-link{
+    padding: 10px;
+    color: whitesmoke;
+}
+.navbar-brand{
+
+    MARGIN-LEFT: 45PX;
+    FONT-WEIGHT: 500;
+}
+.home{
+    background-image: url('background5.webp');
+   
+    height:100vh;
+    min-height:500px;
+    background-size: cover;
+}
+.typing{
+    color: red;
+}

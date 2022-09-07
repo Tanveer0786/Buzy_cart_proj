@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+     
+
+    <body >
+        <section class="home" style="background-image: url('background.jpg')">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a id="navbar" class="navbar-brand" href="#" style="color: white;">Buzy Cart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link active" style="color:white;" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Login/register</a>
+              <a class="nav-link" href="#">Pricing</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container" >
+<div class="left_element">
+    <h4 style="font-weight:600 ;">We</h4>
+    <h3 style="font-weight: 600;">are here,</h3>
+   <h2><span class="typing">  </span></h2>
+      </div>
+<div class="right_element">
+    <h2>Registration form</h2>
+    <div  id="Form_input">
+      <div class="form-group">
+        <label for="text">FullName:</label>
+        <input type="text" class="form-control" placeholder="Enter FullName" name="email">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="number">PhoneNum:</label>
+        <input type="text" class="form-control" placeholder="Enter Number" name="email">
+      </div> 
+      <label for="gender">Gender</label>  
+      <div class="form-check">
+       
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Male
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+        <label class="form-check-label" for="flexRadioDefault2">
+          Female
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button  id="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+</section>
+    <script src="./Javascript/App.js"></script>
+</body>
+</html>
