@@ -30,12 +30,16 @@
             <div class="navbar-nav ml-auto">
               <a class="nav-link active" style="color:white;" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#">Login/register</a>
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" id="Table" href="#">Data-table</a>
               
             </div>
           </div>
         </div>
       </nav>
+      <div class="modal" id="add-modal">
+         
+
+      </div>
       <div class="container" >
 <div class="left_element">
     <h4 style="font-weight:600 ;">We</h4>
@@ -44,18 +48,18 @@
       </div>
 <div class="right_element">
     <h2>Registration form</h2>
-    <div  id="Form_input">
+    <form id="Form_input">
       <div class="form-group">
         <label for="text">FullName:</label>
-        <input type="text" class="form-control" placeholder="Enter FullName" name="email">
+        <input type="text" class="form-control" placeholder="Enter FullName" name="email" required>
       </div>
       <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
       </div>
       <div class="form-group">
         <label for="number">PhoneNum:</label>
-        <input type="text" class="form-control" placeholder="Enter Number" name="email">
+        <input type="text" class="form-control" placeholder="Enter Number" name="email" required>
       </div> 
       <label for="gender">Gender</label>  
       <div class="form-check">
@@ -73,7 +77,7 @@
       </div>
       <div class="form-group">
         <label for="pwd">Password:</label>
-        <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+        <input type="password" class="form-control" placeholder="Enter password" name="pswd" required>
       </div>
       <div class="form-group form-check">
         <label class="form-check-label">
@@ -81,7 +85,7 @@
         </label>
       </div>
       <button  id="submit" class="btn btn-primary">Submit</button>
-    </div>
+    </form>
   </div>
 </div>
 </section>
